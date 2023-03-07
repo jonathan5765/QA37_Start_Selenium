@@ -53,8 +53,8 @@ public class Index {
 
         //by LinkText
 
-        //WebElement linktext = wd.findElement(By.linkText("#item1"));
-        WebElement a2 = wd.findElement(By.cssSelector("[href='#item1']"));
+        WebElement linkText = wd.findElement(By.linkText("Item 1"));
+        //WebElement a2 = wd.findElement(By.cssSelector("[href='Item 1']"));
 
         WebElement inp = wd.findElement(By.cssSelector("[placeholder='Type your name']"));
         //start
